@@ -288,7 +288,10 @@ function cleanMarkdown(markdown) {
     );
 
   const lines = normalized.split("\n");
-  const chapterStartIndex = lines.findIndex((line) => line.trim() === "# 第一章 城市介绍");
+  const chapterStarts = lines
+    .map((line, index) => (line.trim() === "# 第一章 城市介绍" ? index : -1))
+    .filter((index) => index >= 0);
+  const chapterStartIndex = chapterStarts[1] ?? chapterStarts[0];
   return lines.slice(chapterStartIndex >= 0 ? chapterStartIndex : 0).join("\n");
 }
 
@@ -306,11 +309,11 @@ function parseSections(markdown) {
     const heading = line.match(/^#\s+(.+)$/);
     if (heading) {
       const title = normalizeTitle(heading[1]);
-      const isChapter = /^第.+章/.test(title);
+      const level = inferHeadingLevel(title);
       current = {
-        id: isChapter ? `chapter-${chapterNumber(title, sections.length)}` : createId(title, sections.length),
+        id: level === 1 ? `chapter-${chapterNumber(title, sections.length)}` : createId(title, sections.length),
         title,
-        level: isChapter ? 1 : 2,
+        level,
         lines: [],
       };
       sections.push(current);
@@ -321,9 +324,15 @@ function parseSections(markdown) {
   }
 
   const filtered = sections.filter(
-    (section) => section.level === 1 || section.lines.some((line) => line.trim()),
+    (section) => section.level <= 2 || section.lines.some((line) => line.trim()),
   );
   return addChapterOverviews(filtered.map((section) => toStructuredSection(section)));
+}
+
+function inferHeadingLevel(title) {
+  if (/^第.+章/.test(title)) return 1;
+  if (/^\d+\.\d+\s+/.test(title)) return 2;
+  return 3;
 }
 
 function toStructuredSection(section) {
@@ -354,7 +363,7 @@ function addChapterOverviews(sections) {
 
     const children = [];
     for (let i = index + 1; i < sections.length && sections[i].level !== 1; i += 1) {
-      if (/^\d+\.\d+/.test(sections[i].title)) children.push(sections[i].title);
+      if (sections[i].level === 2 && /^\d+\.\d+/.test(sections[i].title)) children.push(sections[i].title);
     }
 
     if (!children.length) return section;

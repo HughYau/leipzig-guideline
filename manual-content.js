@@ -219,7 +219,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "莱比锡大学-universit-t-leipzig-缩写为-ul-4",
       "title": "莱比锡大学 (Universität Leipzig, 缩写为 UL)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -239,7 +239,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "莱比锡应用科技大学-htwk-5",
       "title": "莱比锡应用科技大学 (HTWK)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -255,7 +255,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "莱比锡平面设计和书籍艺术高等学院-hgb-6",
       "title": "莱比锡平面设计和书籍艺术高等学院 (HGB)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -287,7 +287,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "莱比锡媒体学院-leipzig-school-of-media-7",
       "title": "莱比锡媒体学院 (Leipzig School of Media)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -303,7 +303,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "英国兰卡斯特大学莱比锡分校-lancaster-university-leipzig-8",
       "title": "英国兰卡斯特大学莱比锡分校 (Lancaster University Leipzig)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -421,6 +421,8 @@ window.MANUAL_CONTENT = {
             "3.2 银行开户",
             "3.3 购买医疗保险",
             "3.4 延签、材料及政策",
+            "3.5 重要机构及其联系方式，办公时间与抵达路线",
+            "3.6 紧急联系电话",
             "3.7 服务网址"
           ]
         },
@@ -433,7 +435,7 @@ window.MANUAL_CONTENT = {
           "creditUrl": "https://unsplash.com/photos/the-leipzig-city-hall-rises-towards-a-blue-sky-bLa3GZER8-U"
         }
       ],
-      "text": "3.1 市政厅住址登记 3.2 银行开户 3.3 购买医疗保险 3.4 延签、材料及政策 3.7 服务网址 "
+      "text": "3.1 市政厅住址登记 3.2 银行开户 3.3 购买医疗保险 3.4 延签、材料及政策 3.5 重要机构及其联系方式，办公时间与抵达路线 3.6 紧急联系电话 3.7 服务网址 "
     },
     {
       "id": "3-1-市政厅住址登记-16",
@@ -483,7 +485,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "各市政厅网点信息汇总-17",
       "title": "各市政厅网点信息汇总",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "list",
@@ -651,7 +653,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "预约与在线申请提示-21",
       "title": "预约与在线申请提示",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -673,9 +675,16 @@ window.MANUAL_CONTENT = {
       "text": "当前技术市政厅外管局、大学学生服务中心（SSZ）等以在线申请和预约办理为主。延签必须在其官方在线门户预先提交流程材料；办理咨询或学生卡业务必须在线锁定预定槽位（Termin），是否接受现场办理请以官方页面和现场公告为准。 居留证快要到期时，外管局会给你所在的登记地址寄送延签信，一般是到期前三个月收到。随信会附上延签需要准备的材料清单， 注: 具体数值请咨询税务局，由于考虑到资料的时效性，此金额数值仅供参考，具体还请查询外管局官网。 如果有任何问题，可以通过填写外管局在线表格提出疑问，在线表格链接为 https://formulare.leipzig.de/frontend-server/form/provide/1018/;jsessionid=36B7E87CE9BB195107DC30BB7D7FB748"
     },
     {
+      "id": "3-5-重要机构及其联系方式-办公时间与抵达路线-22",
+      "title": "3.5 重要机构及其联系方式，办公时间与抵达路线",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "重要机构及其联系方式-23",
       "title": "重要机构及其联系方式",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "list",
@@ -703,9 +712,16 @@ window.MANUAL_CONTENT = {
       "text": "Studentenwerk Leipzig (学生服务处)Goethestraße 6, 04109 Leipzig | Tel: 0341- 96595 | https://www.studentenwerk-leipzig.de Stabsstelle Internationales (国际生服务处)Goethestraße 3-5, 04109 Leipzig | Tel: 0341- 9732020 | https://www.uni-leipzig.de/international (需预约) Ausländerbehörde (外管局/移民局)Prager Straße 128 (Eingang B1), 04317 Leipzig | Tel: 0341- 1233310 Studentenrat der Uni Leipzig (莱大学生会)Universitätsstraße 1, 04109 Leipzig | Tel: 0341- 9737850 | http://www.stura.uni-leipzig.de"
     },
     {
+      "id": "3-6-紧急联系电话-24",
+      "title": "3.6 紧急联系电话",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "紧急联系电话-25",
       "title": "紧急联系电话",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "list",
@@ -1105,7 +1121,10 @@ window.MANUAL_CONTENT = {
           "items": [
             "7.1 萨克森美食",
             "7.2 咖啡馆",
-            "7.3 中餐馆"
+            "7.3 中餐馆",
+            "7.4 意大利餐厅",
+            "7.5 希腊餐厅",
+            "7.6 日韩餐厅"
           ]
         },
         {
@@ -1117,7 +1136,7 @@ window.MANUAL_CONTENT = {
           "creditUrl": "https://unsplash.com/photos/grayscale-photo-of-people-walking-on-street-FVHxrNGk4os"
         }
       ],
-      "text": "7.1 萨克森美食 7.2 咖啡馆 7.3 中餐馆 "
+      "text": "7.1 萨克森美食 7.2 咖啡馆 7.3 中餐馆 7.4 意大利餐厅 7.5 希腊餐厅 7.6 日韩餐厅 "
     },
     {
       "id": "7-1-萨克森美食-39",
@@ -1134,7 +1153,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "leipziger-allerlei-莱比锡炖菜-40",
       "title": "Leipziger Allerlei（莱比锡炖菜）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1146,7 +1165,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "sauerbraten-酸汁猪排-41",
       "title": "Sauerbraten（酸汁猪排）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1158,7 +1177,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "karpfen-blau-蓝色鲤鱼-42",
       "title": "Karpfen blau（蓝色鲤鱼）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1170,7 +1189,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "leipziger-lerche-莱比锡云雀蛋糕-43",
       "title": "Leipziger Lerche（莱比锡云雀蛋糕）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1182,7 +1201,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "s-chsische-kartoffelkl-e-萨克森土豆饺子-44",
       "title": "Sächsische Kartoffelklöße（萨克森土豆饺子）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1214,7 +1233,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "caf-kandler-46",
       "title": "Café Kandler",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1226,7 +1245,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "spizz-47",
       "title": "Spizz",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1238,7 +1257,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "riquethaus-48",
       "title": "Riquethaus",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1250,7 +1269,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "caf-grundmann-49",
       "title": "Café Grundmann",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1274,7 +1293,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "chinarestaurant-zhang-回味轩-51",
       "title": "Chinarestaurant Zhang (回味轩)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1294,7 +1313,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "chinas-welt-kulinarisches-restaurant-九州食府-52",
       "title": "Chinas Welt kulinarisches Restaurant（九州食府）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1306,7 +1325,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "chinesisches-spezialit-ten-restaurants-wenzhou-温州食府-53",
       "title": "Chinesisches Spezialitäten-Restaurants WenZhou（温州食府）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1318,7 +1337,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "ginken-54",
       "title": "Ginken",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1328,9 +1347,16 @@ window.MANUAL_CONTENT = {
       "text": "Ginken 是一家年轻的餐厅，不仅提供传统美味的炸鸡和茶饮，还融入了时下流行的 pokebowl 和经典的麻辣烫。能满足你的各种中国胃。而且店面装修简洁大方，用餐环境也温馨舒适，是小编非常推荐去的一个餐厅哦! 地址：Johannes-R.-Becher-Straße 2, 04279 Leipzig"
     },
     {
+      "id": "7-4-意大利餐厅-55",
+      "title": "7.4 意大利餐厅",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "toskana-leipzig-56",
       "title": "Toskana Leipzig",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1342,7 +1368,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "d-italy-ristorante-pizzeria-57",
       "title": "D’ITALY Ristorante & Pizzeria",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1354,7 +1380,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "l-osteria-leipzig-于-2026-3-23-至-2026-5-4-期间闭门全面整修-58",
       "title": "L’Osteria Leipzig (于 2026.3.23 至 2026.5.4 期间闭门全面整修！)",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1366,7 +1392,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "vapiano-59",
       "title": "Vapiano",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1378,7 +1404,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "la-grotta-pizzeria-ristorante-eis-60",
       "title": "LA GROTTA PIZZERIA - Ristorante - Eis",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1388,9 +1414,16 @@ window.MANUAL_CONTENT = {
       "text": "LA GROTTA PIZZERIA - Ristorante - Eis 是一家温馨的意大利餐厅，提供各种风味的披萨、传统的意大利面和精致的冰淇淋甜点。餐厅内部装饰温馨典雅，充满了意大利家庭餐厅的氛围。这里的披萨以其丰富的配料和独特的口感而闻名，有经典的玛格丽特披萨、四季披萨以及带有独特风味的海鲜披萨。意大利面则包括各种传统款式，如博洛尼亚肉酱面、奶油蘑菇面和清新香蒜面。地址：Ratsfreischulstraße 8, 04109 Leipzig"
     },
     {
+      "id": "7-5-希腊餐厅-61",
+      "title": "7.5 希腊餐厅",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "elliniki-griechisches-restaurant-62",
       "title": "Elliniki Griechisches Restaurant",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1402,7 +1435,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "restaurant-taverna-hellas-63",
       "title": "Restaurant Taverna Hellas",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1412,9 +1445,16 @@ window.MANUAL_CONTENT = {
       "text": "Restaurant Taverna Hellas 是一家温馨舒适的希腊餐厅，以其传统的希腊菜肴和亲民的价格深受顾客喜爱。餐厅的装饰简单而不失典雅，营造出一种家的感觉。这里的菜单丰富多样，从经典的希腊沙拉、酥脆的烤肉串到香浓的羊肉炖菜，都能满足您的味蕾需求。Taverna Hellas 是一个与家人和朋友一起共度美好时光的好地方，尤其适合那些想要品尝正宗希腊风味的食客。地址: Friedrich-Ebert-Straße 108, 04105"
     },
     {
+      "id": "7-6-日韩餐厅-64",
+      "title": "7.6 日韩餐厅",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "kimi-chinesisches-restaurant-65",
       "title": "Kimi chinesisches Restaurant",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1426,7 +1466,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "koy-leipzig-koreanischer-imbiss-im-musikviertel-66",
       "title": "Koy Leipzig - Koreanischer Imbiss im Musikviertel",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1438,7 +1478,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "kirigami-67",
       "title": "Kirigami",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1532,7 +1572,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "2026-餐饮价格提示-71",
       "title": "2026 餐饮价格提示",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1550,9 +1590,12 @@ window.MANUAL_CONTENT = {
           "type": "overview",
           "title": "本章导读",
           "items": [
+            "9.1 家庭医生",
+            "9.2 看病流程",
             "9.3 药品购买",
             "9.4 急诊处理",
-            "9.5 莱比锡急诊诊所 (Bereitschaftspraxen)"
+            "9.5 莱比锡急诊诊所 (Bereitschaftspraxen)",
+            "9.6 莱比锡各大医院简介"
           ]
         },
         {
@@ -1564,12 +1607,19 @@ window.MANUAL_CONTENT = {
           "creditUrl": "https://unsplash.com/photos/a-yellow-and-blue-trolley-on-a-city-street-HTn79W4g9Yo"
         }
       ],
-      "text": "9.3 药品购买 9.4 急诊处理 9.5 莱比锡急诊诊所 (Bereitschaftspraxen) "
+      "text": "9.1 家庭医生 9.2 看病流程 9.3 药品购买 9.4 急诊处理 9.5 莱比锡急诊诊所 (Bereitschaftspraxen) 9.6 莱比锡各大医院简介 "
+    },
+    {
+      "id": "9-1-家庭医生-73",
+      "title": "9.1 家庭医生",
+      "level": 2,
+      "blocks": [],
+      "text": ""
     },
     {
       "id": "家庭医生-hausarzt-74",
       "title": "家庭医生（Hausarzt）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1597,9 +1647,16 @@ window.MANUAL_CONTENT = {
       "text": "什么是家庭医生？家庭医生（Hausarzt）是患者在德国医疗系统中的第一联系人，负责提供基础的医疗护理、诊断和治疗。如果需要进一步的专科治疗，家庭医生会提供转诊。如何找到家庭医生？健康保险公司推荐：可以通过你加入的健康保险公司（Krankenkasse）寻找并推荐家庭医生。在线搜索：使用网站如 Jameda.de 或 Doctolib.de 搜索你所在地附近的家庭医生，并查看患者评价。学校或同学推荐：向学校的国际学生办公室或已经在德国的同学询问推荐。注册家庭医生 预约：找到合适的医生后，拨打电话预约初次就诊时间（Ersttermin）。 初次就诊：带上健康保险卡（Krankenversicherungskarte），向医生介绍你的健康状况，并建立医疗档案。 选择：如果不满意，可以随时更换家庭医生，不需要特殊手续。"
     },
     {
+      "id": "9-2-看病流程-75",
+      "title": "9.2 看病流程",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "初次就诊-76",
       "title": "初次就诊",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "list",
@@ -1637,7 +1694,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "专科医生转诊-77",
       "title": "专科医生转诊",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "list",
@@ -1683,7 +1740,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "就医小贴士-79",
       "title": "就医小贴士",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "list",
@@ -1746,9 +1803,16 @@ window.MANUAL_CONTENT = {
       "text": "以下是莱比锡大学医院内，由萨克森州医疗联合会管理的三家主力急诊诊所详细信息。如果您在夜晚或假期突发疾病，请携带医保卡前往。详情链接: https://www.uniklinikum-leipzig.de/ 诊所类型 地址与急救电话 常规营业时间(仅供夜间与节假日) 全科急诊(Allgemein) Liebigstr. 20-22, Haus 7.1电话: 116 117 周一二四: 19:00 - 22:00周三五: 14:00 - 22:00周末节假日: 9:00 - 22:00 耳鼻喉急诊(HNO) Liebigstr. 12, Haus 1电话: 116 117 周一二四: 19:00 - 22:00周三五: 14:00 - 20:00 (部分延长至 22 时)周末节假日: 9:00 - 20:00 眼科急诊(Augen) Liebigstr. 12, Haus 1电话: 116 117 周一二四: 19:00 - 22:00周三: 14:00 - 22:00,周五: 14:00 - 20:00周末节假日: 9:00 - 20:00"
     },
     {
+      "id": "9-6-莱比锡各大医院简介-82",
+      "title": "9.6 莱比锡各大医院简介",
+      "level": 2,
+      "blocks": [],
+      "text": ""
+    },
+    {
       "id": "莱比锡大学医院-universit-tsklinikum-leipzig-83",
       "title": "莱比锡大学医院（Universitätsklinikum Leipzig）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1760,7 +1824,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "海恩里希-维格曼心脏中心-herzzentrum-leipzig-84",
       "title": "海恩里希·维格曼心脏中心（Herzzentrum Leipzig）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1772,7 +1836,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "圣伊丽莎白医院-st-elisabeth-krankenhaus-leipzig-85",
       "title": "圣伊丽莎白医院（St. Elisabeth-Krankenhaus Leipzig）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",
@@ -1784,7 +1848,7 @@ window.MANUAL_CONTENT = {
     {
       "id": "莱比锡市立医院-st-dtisches-klinikum-leipzig-86",
       "title": "莱比锡市立医院（Städtisches Klinikum Leipzig）",
-      "level": 2,
+      "level": 3,
       "blocks": [
         {
           "type": "paragraph",

@@ -181,12 +181,37 @@ a {
   gap: 2px;
 }
 
+.toc-group {
+  display: grid;
+  gap: 2px;
+}
+
 .toc a {
   display: block;
   padding: 8px 10px;
   border-radius: 7px;
   color: var(--ink);
   text-decoration: none;
+}
+
+.toc a.toc-chapter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.toc-caret {
+  flex: 0 0 auto;
+  color: var(--stone);
+  font-size: 1rem;
+  line-height: 1;
+  transform: rotate(0deg);
+  transition: transform 160ms ease;
+}
+
+.toc-group.expanded .toc-caret {
+  transform: rotate(90deg);
 }
 
 .toc a:hover,
@@ -196,10 +221,33 @@ a {
   color: var(--ink);
 }
 
+.toc-children {
+  display: none;
+  gap: 1px;
+  padding: 2px 0 6px;
+}
+
+.toc-group.expanded .toc-children {
+  display: grid;
+}
+
+.toc-subgroup,
+.toc-grandchildren {
+  display: grid;
+  gap: 1px;
+}
+
 .toc .level-2 {
   padding-left: 22px;
   color: var(--muted);
   font-size: 0.94rem;
+}
+
+.toc .level-3 {
+  padding: 6px 10px 6px 38px;
+  color: #74726b;
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 .reader {
@@ -285,9 +333,11 @@ a {
 .chapter-visual img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: min(72vh, 820px);
   border-radius: 24px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   filter: saturate(0.88) sepia(0.08) contrast(0.96);
 }
 
@@ -416,8 +466,30 @@ a {
   font-size: clamp(1.45rem, 2.2vw, 2rem);
 }
 
+.content h4 {
+  margin: 28px 0 10px;
+  color: var(--charcoal);
+  font-size: 1.08rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 .content p {
   margin: 0 0 1.05em;
+}
+
+.content strong,
+.content-card strong {
+  color: var(--ink);
+  font-weight: 850;
+  background: linear-gradient(transparent 58%, rgba(201, 100, 66, 0.18) 58%);
+}
+
+.content em,
+.content-card em {
+  color: #8f422a;
+  font-style: italic;
+  font-weight: 650;
 }
 
 .content-card {
@@ -453,7 +525,6 @@ a {
 }
 
 .chapter-visual {
-  height: clamp(240px, 42vw, 440px);
   margin: 22px 0 34px;
   padding: 8px;
   border-radius: 24px;
